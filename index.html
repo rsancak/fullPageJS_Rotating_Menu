@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fullPageJS_Rotating_Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section" id="section-1" data-anchor="page-anchor-2">
+            <div class="section_title"></div>
+        </div>
+        <div class="section" id="section-2" data-anchor="page-anchor-3">
+            <div class="section_title"></div>
+        </div>
+        <div class="section" id="section-3" data-anchor="page-anchor-4">
+            <div class="section_title"></div>
+        </div>
+        <div class="section" id="section-4" data-anchor="page-anchor-5">
+            <div class="section_title"></div>
+        </div>
+        <div class="section" id="section-5" data-anchor="page-anchor-6">
+            <div class="section_title"></div>
+        </div>
+    </div>
+
+    <div class="rotating-block">
+        <ul id="rotating" class="rotating_list">
+            <li id="page-name-1" class="page-name rotating_page-name actived">
+                <a href="#page-anchor-1">
+                    <div class="rotating-page_name">Main Page</div>
+                </a>
+            </li>
+            <li id="page-name-2" class="page-name rotating_page-name">
+                <a href="#page-anchor-2">
+                    <div class="rotating-page_name">About Us</div>
+                </a>
+            </li>
+            <li id="page-name-3" class="page-name rotating_page-name">
+                <a href="#page-anchor-3">
+                    <div class="rotating-page_name">Products</div>
+                </a>
+            </li>
+            <li id="page-name-4" class="page-name rotating_page-name">
+                <a href="#page-anchor-4">
+                    <div class="rotating-page_name">Services</div>
+                </a>
+            </li>
+            <li id="page-name-5" class="page-name rotating_page-name">
+                <a href="#page-anchor-5">
+                    <div class="rotating-page_name">Contact</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

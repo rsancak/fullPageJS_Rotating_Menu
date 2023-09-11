@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.section {
+  background-size: cover;
+  filter: grayscale(100%);  
+}
+
+#section-1 {
+  background-image: url('../img/image-1.jpg');
+}
+
+#section-2 {
+  background-image: url('../img/image-2.jpg');
+}
+
+#section-3 {
+  background-image: url('../img/image-3.jpg');
+}
+
+#section-4 {
+  background-image: url('../img/image-4.jpg');
+}
+
+#section-5 {
+  background-image: url('../img/image-5.jpg');
+}
+
+.rotating-block {
+  margin-top: -400px;
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  top: 50%;
+}
+
+.rotating_list {
+  height: 800px;
+  width: 800px;
+  margin: 0 50px 50px -680px;
+  font-size: 25px;
+  border-radius: 50%;
+  transform-origin: 50% 50%;
+  box-shadow: -4px 0px 34px 0px rgba(0,0,0,0.75);
+  transition: all 1s ease;
+  position: relative;
+}
+
+.rotating_page-name a {
+  text-decoration: none;
+  color: #ffffff;
+  white-space: nowrap;
+  font-size: 25px;
+  font-weight: 100;
+  transition: all 1s ease;
+}
+
+.actived .rotating-page_name {
+  font-weight: bold;
+}
+
+.rotating_page-name {  
+  position: absolute;
+}
+
+.rotating_page-name:first-child {
+  top: 405px;
+  left: 852px;
+}
+
+.rotating_page-name:nth-child(2) {
+  top: 600px;
+  left: 807px;
+  transform: rotate(22.5deg);
+}
+
+.rotating_page-name:nth-child(3) {
+  top: 750px;
+  left: 682px;
+  transform: rotate(45deg);
+}
+
+.rotating_page-name:nth-child(4) {
+  top: 840px;
+  left: 506px;
+  transform: rotate(67.5deg);
+}
+
+.rotating_page-name:nth-child(5) {
+  top: 850px;
+  left: 309px;
+  transform: rotate(90deg);
+}
